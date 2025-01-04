@@ -2,10 +2,8 @@
 
 ## 📚 Project Overview
 
-**FT_PRINTF** is a project developed at 42 School to recreate the functionality of the standard `printf` function in C.
+**FT_PRINTF** is a project developed to recreate the functionality of the standard `printf` function in C.
 This project focuses on understanding variadic functions, formatted output, and improving low-level programming skills.
-
-By implementing **FT_PRINTF**, you gain hands-on experience in handling various data types, formatting output, and managing edge cases, all while adhering to strict coding standards.
 
 ---
 
@@ -24,15 +22,8 @@ All features are implemented with precision to mimic the behavior of the origina
 
 ---
 
-📈 Achievement
-
-🏆 Grade Achieved: 100%
-This project meets all mandatory requirements, demonstrating full functionality of the supported format specifiers.
-
----
-
 👤 Author
-G1iTch
+Mohamed El hammouchi //G1iTch//
 42 Login: mel-hamm
 
 ---
