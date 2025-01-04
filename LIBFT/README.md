@@ -2,10 +2,8 @@
 
 ## 📚 Project Overview
 
-**LIB_FT** is a foundational project developed at 42 School. The goal is to create a custom C library by re-implementing standard C functions and adding utility functions.
+The oal of **LIB_FT** is to create a custom C library by re-implementing standard C functions and adding utility functions.
 This project serves as an introduction to low-level programming, focusing on memory management, function implementation, and adherence to the C standard.
-
-With **LIB_FT**, you’ll have a powerful toolkit to streamline future C projects while gaining a deeper understanding of how standard libraries work under the hood.
 
 ---
 
@@ -26,19 +24,14 @@ Additional helper functions to expand the capabilities of your programs:
 - Memory management helpers.
 - Conversion tools.
 
-### 🔹 Bonus Functions (Achieved 25%)
+### 🔹 Additional Functions
 Includes advanced functionalities, such as:
 - Linked list manipulation functions (`ft_lstnew`, `ft_lstadd`, etc.).
 - Enhanced modular tools for more complex use cases.
 
 ----
-📈 Achievement
-🏆 Grade Achieved: 125% (including bonus functions).
-This project was built with precision and care to meet all requirements, including bonus features.
-
-----
 
 👤 Author
-G1iTch
+Mohamed El hammouchi //G1iTch//
 
 42 Login: mel-hamm
