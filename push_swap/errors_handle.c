@@ -54,6 +54,6 @@ void	free_stack(t_stack *stack)
 void	free_(t_stack **stack_a)
 {
 	free_stack(*stack_a);
-	write(1, "Error\n", 6);
+	write(2, "Error\n", 6);
 	exit(1);
 }

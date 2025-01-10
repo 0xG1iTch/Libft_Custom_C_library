@@ -39,7 +39,7 @@ int	main(int ac, char **av)
 		av = ft_split(av[1], ' ');
 	initialize_stack(&stack_a, av + 1);
 	len_a = len_stack(stack_a);
-	indexing(stack_a, len_a + 1);
+	indexing(stack_a, len_a);
 	push_swap(&stack_a, &stack_b, len_a);
 	free_stack(stack_a);
 	if (ac == 2)

@@ -82,7 +82,7 @@ void	indexing(t_stack *stack_a, int stack_size)
 	t_stack	*highest;
 	int		value;
 
-	while (--stack_size > 0)
+	while (stack_size-- > 0)
 	{
 		ptr = stack_a;
 		value = INT_MIN;

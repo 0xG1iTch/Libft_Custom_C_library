@@ -49,7 +49,7 @@ static int	count_words(char *str, char separator)
 	return (count);
 }
 
-static char	*get_next_word(char *str, char separator)
+static char	*next_word(char *str, char separator)
 {
 	static int	cursor = 0;
 	char		*next_str;
@@ -73,29 +73,29 @@ static char	*get_next_word(char *str, char separator)
 
 char	**ft_split(char *str, char separator)
 {
-	int		words_number;
-	char	**vector_strings;
+	int		num_word;
+	char	**splits;
 	int		i;
 
 	i = 0;
-	words_number = count_words(str, separator);
-	if (!words_number)
+	num_word = count_words(str, separator);
+	if (!num_word)
 		exit(1);
-	vector_strings = malloc(sizeof(char *) * (size_t)(words_number + 2));
-	if (NULL == vector_strings)
+	splits = malloc(sizeof(char *) * (size_t)(num_word + 2));
+	if (NULL == splits)
 		return (NULL);
-	while (words_number-- >= 0)
+	while (num_word-- >= 0)
 	{
 		if (0 == i)
 		{
-			vector_strings[i] = malloc(sizeof(char));
-			if (NULL == vector_strings[i])
+			splits[i] = malloc(sizeof(char));
+			if (NULL == splits[i])
 				return (NULL);
-			vector_strings[i++][0] = '\0';
+			splits[i++][0] = '\0';
 			continue ;
 		}
-		vector_strings[i++] = get_next_word(str, separator);
+		splits[i++] = next_word(str, separator);
 	}
-	vector_strings[i] = NULL;
-	return (vector_strings);
+	splits[i] = NULL;
+	return (splits);
 }
