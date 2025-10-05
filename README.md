@@ -2,7 +2,7 @@
 
 ## 📚 Project Overview
 
-The oal of **LIB_FT** is to create a custom C library by re-implementing standard C functions and adding utility functions.
+**LIB_FT** is a custom C library re-implementing standard C functions and adding utility functions.
 This project serves as an introduction to low-level programming, focusing on memory management, function implementation, and adherence to the C standard.
 
 ---
